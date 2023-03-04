@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  background-image: url('chita.jpg');
   background-color: #cfc8b0;
 }
 
@@ -12,23 +13,22 @@ h1{
   text-align: center;
   font-size: 30px;
   font-family: 'Almendra SC', Times New Roman, Times, serif;
-  color: #330;
+  color: #f6c;
 }
-button{
-  border: .4rem solid #330;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  width: 80%;
+h3{
   text-align: center;
-  color: yellow;
+  font-size: 20px;
+  font-family: 'Almendra SC', Times New Roman, Times, serif;
+}
+button {
+  width: 100%;
+  text-align: center;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  border: 0px;
 }
 .fundo{
-  background: url('./background.png') top center;
-  background-size: cover;
+  background: url('./fundo.jpg') top center;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .keys {
@@ -68,5 +68,12 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
+  color: #ff66cc;
+}
+a {
+  color: yellow;
+  text-decoration: none;
+}
+a.hover{
   color: #ff66cc;
 }
