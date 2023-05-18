@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background-image: url('chita.jpg');
+  background-image: url('https://drive.google.com/uc?export=view&id=157zTc70vlKg-pogTARQSfcoR7AtU1NPK');
   background-color: #cfc8b0;
 }
 
@@ -27,7 +27,7 @@ button {
   border: 0px;
 }
 .fundo{
-  background: url('./fundo.jpg') top center;
+  background: url('https://drive.google.com/uc?export=view&id=1DRQGmDCVwJ_tRVDl6lDdex6zxHFoQ_r6') top center;
   background-size: contain;
   background-repeat: no-repeat;
 }
