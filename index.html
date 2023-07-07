@@ -19,9 +19,67 @@
   <div class="ratio ratio-16x9">
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnv-xaXoNKQ9KA0crfB01doZ0p_zlZHPXYL7yfGj3H0-BgPYXlMu-laMBMbbW01lgxWiBcrR_7HApe/embed?start=false&loop=false&delayms=60000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe><br><br>
   </div>
-  <div class="ratio ratio-16x9">
-    <iframe src="sounds.html" frameborder="0"></iframe><br><br>
-  </div>
+  <div class="container text-center fundo p-5">
+    <div class="row align-items-middle justify-content-center">
+        <p class="key">Clique na tecla para tocar o som | Hit the key to play the sound</p>
+    <div class="col-lg-4">
+    <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">maraca</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">triangle</span>
+          </div>
+    </div></div>
+        <div class="col-lg-4">
+        <div class="keys">
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">tamborine</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">atabaque</span>
+          </div>
+          <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">agogo</span>
+          </div>
+      </div></div>
+      <div class="col-lg-4">
+        <div class="keys">
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <span class="sound">caxixi</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <span class="sound">berimbau</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <span class="sound">cuica</span>
+        </div>
+      </div>
+    </div></div></div>
+
+      <audio data-key="65" src="./assets/clap.wav"></audio>
+      <audio data-key="83" src="./assets/maraca.wav"></audio>
+      <audio data-key="68" src="./assets/triangle.wav"></audio>
+      <audio data-key="70" src="./assets/tamborine.wav"></audio>
+      <audio data-key="71" src="./assets/boom.wav"></audio>
+      <audio data-key="72" src="./assets/agogo.wav"></audio>
+      <audio data-key="74" src="./assets/caxixi.wav"></audio>
+      <audio data-key="75" src="./assets/berimbau.wav"></audio>
+      <audio data-key="76" src="./assets/cuica.wav"></audio>
+      
+    <script src="test.js"></script>
     <div class="container-fluid black">
       <div class="row align-items-center justify-content-center">
         <div class="col-12">
