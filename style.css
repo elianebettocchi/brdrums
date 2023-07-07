@@ -29,20 +29,16 @@ h3{
   background-color: rgba(0,0,0,0);
 }
 .keys {
-  display: flex;
-  flex: 1;
-  min-height: 30%;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   font-family: 'Almendra SC', Times New Roman, Times, serif;
 }
 
 .key {
   border: 1px solid rgb(255, 255, 255);
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
+  border-radius: 5px;
+  margin: 5%;
+  padding: 10px;
   transition: all .07s ease;
   width: auto;
   text-align: center;
@@ -64,9 +60,7 @@ kbd {
 }
 
 .sound {
-  font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: .1rem;
   color: #330;
 }
 .a-yellow {
