@@ -28,6 +28,13 @@ p{
   border: 0px;
   color: goldenrod;
 }
+.bege {
+  width: 100%;
+  text-align: center;
+  background: #cfc8b0;
+  border: 0px;
+  color: #330;
+}
 .transparent{
   background-color: rgba(0,0,0,0);
 }
@@ -69,6 +76,11 @@ kbd {
 .a-yellow {
   color: yellow;
   text-decoration: none;
+}
+.a-gray {
+  color: gray;
+  text-decoration: none;
+  font-family: 'Almendra SC', Times New Roman, Times, serif;
 }
 a.hover{
   color: #ff66cc;
